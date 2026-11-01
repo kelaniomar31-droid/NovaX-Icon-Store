@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nova X Icon Store catalog",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "catalogName",
+    "catalogVersion",
+    "packs"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer"
+    },
+    "catalogName": {
+      "type": "string"
+    },
+    "catalogVersion": {
+      "type": "integer"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date"
+    },
+    "packs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "developer",
+          "version",
+          "packageName",
+          "downloadType",
+          "downloadUrl",
+          "sourceUrl",
+          "license",
+          "requiresUserInstallConfirmation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "variant": {
+            "type": "string"
+          },
+          "developer": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "iconCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "version": {
+            "type": "string"
+          },
+          "packageName": {
+            "type": "string"
+          },
+          "downloadType": {
+            "enum": [
+              "apk",
+              "zip",
+              "external"
+            ]
+          },
+          "downloadUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "releaseUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "license": {
+            "type": "string"
+          },
+          "licenseUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "attribution": {
+            "type": "string"
+          },
+          "distribution": {
+            "type": "string"
+          },
+          "requiresUserInstallConfirmation": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}
