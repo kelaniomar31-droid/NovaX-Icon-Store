@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "catalogName": "Nova X Icon Store",
+  "catalogVersion": 1,
+  "lastUpdated": "2026-11-02",
+  "packs": [
+    {
+      "id": "arcticons-normal",
+      "name": "Arcticons",
+      "variant": "Normal",
+      "developer": "Arcticons Team",
+      "description": "حزمة أيقونات خطية أحادية اللون وبسيطة، تضم أكثر من 15 ألف أيقونة وفق إصدار المشروع.",
+      "category": "Minimal",
+      "iconCount": 15322,
+      "version": "15.3.2",
+      "packageName": "com.donnnno.arcticons",
+      "downloadType": "apk",
+      "downloadUrl": "https://github.com/Arcticons-Team/Arcticons/releases/download/15.3.2/Arcticons-15.3.2-normal-release.apk",
+      "sha256": "653ea050715c4d40c15da7e6cefad17e389afcd6a518636f6115de2ae1310fc1",
+      "sourceUrl": "https://github.com/Arcticons-Team/Arcticons",
+      "releaseUrl": "https://github.com/Arcticons-Team/Arcticons/releases/tag/15.3.2",
+      "license": "GPL-3.0 (project code); CC BY-SA 4.0 (icons)",
+      "licenseUrl": "https://github.com/Arcticons-Team/Arcticons",
+      "attribution": "Arcticons Team and the individual icon contributors. Icon artwork is CC BY-SA 4.0; provide attribution and share adaptations under the same license.",
+      "distribution": "Download directly from the official upstream GitHub release; Nova X does not mirror or repackage these files.",
+      "requiresUserInstallConfirmation": true
+    },
+    {
+      "id": "appstract",
+      "name": "Appstract",
+      "variant": "Standard",
+      "developer": "Appstract contributors (community-maintained FOSS fork)",
+      "description": "حزمة أيقونات تجريدية تضم قرابة 590 أيقونة، وتدعم Nova Launcher وعددًا من اللانشرات الأخرى.",
+      "category": "Abstract",
+      "iconCount": 590,
+      "version": "5.0.6",
+      "packageName": "dev.appstract.iconpack",
+      "downloadType": "apk",
+      "downloadUrl": "https://github.com/yangchoo/Appstract/releases/download/v5.0.6/Appstract-v5.0.6.apk",
+      "sha256": "dfdae011e8057f3473818beb1d79f001766ca101b7aaab548083f1f880840541",
+      "sourceUrl": "https://github.com/yangchoo/Appstract",
+      "releaseUrl": "https://github.com/yangchoo/Appstract/releases/tag/v5.0.6",
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/yangchoo/Appstract",
+      "attribution": "Appstract original icon author and project contributors. Retain applicable Apache-2.0 notices when redistributing project materials.",
+      "distribution": "Download directly from the official upstream GitHub release; Nova X does not mirror or repackage these files.",
+      "requiresUserInstallConfirmation": true
+    }
+  ]
+}
