@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    { "id": "minimal", "name": "Minimal", "description": "أيقونات بسيطة وخطية" },
+    { "id": "abstract", "name": "Abstract", "description": "أيقونات تجريدية" },
+    { "id": "monochrome", "name": "Monochrome", "description": "أيقونات أحادية اللون" },
+    { "id": "colorful", "name": "Colorful", "description": "أيقونات ملونة" },
+    { "id": "material", "name": "Material", "description": "تصميم مستوحى من Material Design" }
+  ]
+}
