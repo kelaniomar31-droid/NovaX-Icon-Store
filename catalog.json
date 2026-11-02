@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "catalogName": "Nova X Icon Store",
-  "catalogVersion": 1,
+  "catalogVersion": 2,
   "lastUpdated": "2026-11-02",
   "packs": [
     {
@@ -14,37 +14,42 @@
       "iconCount": 15322,
       "version": "15.3.2",
       "packageName": "com.donnnno.arcticons",
-      "downloadType": "apk",
-      "downloadUrl": "https://github.com/Arcticons-Team/Arcticons/releases/download/15.3.2/Arcticons-15.3.2-normal-release.apk",
-      "sha256": "653ea050715c4d40c15da7e6cefad17e389afcd6a518636f6115de2ae1310fc1",
+      "downloadType": "zip",
+      "downloadUrl": "https://github.com/Arcticons-Team/Arcticons/archive/refs/tags/15.3.2.zip",
       "sourceUrl": "https://github.com/Arcticons-Team/Arcticons",
       "releaseUrl": "https://github.com/Arcticons-Team/Arcticons/releases/tag/15.3.2",
       "license": "GPL-3.0 (project code); CC BY-SA 4.0 (icons)",
-      "licenseUrl": "https://github.com/Arcticons-Team/Arcticons",
+      "licenseUrl": "https://github.com/Arcticons-Team/Arcticons/blob/main/README.md",
       "attribution": "Arcticons Team and the individual icon contributors. Icon artwork is CC BY-SA 4.0; provide attribution and share adaptations under the same license.",
-      "distribution": "Download directly from the official upstream GitHub release; Nova X does not mirror or repackage these files.",
-      "requiresUserInstallConfirmation": true
+      "distribution": "Official upstream source archive ZIP. Import only the icon assets and appfilter; do not install the APK. Preserve CC BY-SA 4.0 attribution and share-alike notices.",
+      "archiveRoot": "",
+      "appfilterPath": "app/src/main/res/xml/appfilter.xml",
+      "iconAssetsPath": "newicons",
+      "requiresUserInstallConfirmation": false
     },
     {
       "id": "appstract",
       "name": "Appstract",
-      "variant": "Standard",
-      "developer": "Appstract contributors (community-maintained FOSS fork)",
+      "variant": "Dark",
+      "developer": "Appstract contributors; original icon artwork by Melanie Gutzmann",
       "description": "حزمة أيقونات تجريدية تضم قرابة 590 أيقونة، وتدعم Nova Launcher وعددًا من اللانشرات الأخرى.",
       "category": "Abstract",
       "iconCount": 590,
       "version": "5.0.6",
       "packageName": "dev.appstract.iconpack",
-      "downloadType": "apk",
-      "downloadUrl": "https://github.com/yangchoo/Appstract/releases/download/v5.0.6/Appstract-v5.0.6.apk",
-      "sha256": "dfdae011e8057f3473818beb1d79f001766ca101b7aaab548083f1f880840541",
+      "downloadType": "zip",
+      "downloadUrl": "https://github.com/yangchoo/Appstract/archive/refs/tags/v5.0.6.zip",
       "sourceUrl": "https://github.com/yangchoo/Appstract",
       "releaseUrl": "https://github.com/yangchoo/Appstract/releases/tag/v5.0.6",
-      "license": "Apache-2.0",
-      "licenseUrl": "https://github.com/yangchoo/Appstract",
-      "attribution": "Appstract original icon author and project contributors. Retain applicable Apache-2.0 notices when redistributing project materials.",
-      "distribution": "Download directly from the official upstream GitHub release; Nova X does not mirror or repackage these files.",
-      "requiresUserInstallConfirmation": true
+      "license": "Apache-2.0 (repository materials; retain all notices and attribution)",
+      "licenseUrl": "https://github.com/yangchoo/Appstract/blob/master/LICENSE.md",
+      "attribution": "Original icon artwork by Melanie Gutzmann (mirrorkeydev); project and community-fork contributors. Retain Apache-2.0 notices and attribution.",
+      "distribution": "Official upstream source archive ZIP. Import icon assets and XML mappings only; do not install the APK.",
+      "archiveRoot": "",
+      "appfilterPath": "app/src/main/res/xml/appfilter.xml",
+      "drawableXmlPath": "app/src/main/res/xml/drawable.xml",
+      "iconAssetsPath": "icons/appstract-dark",
+      "requiresUserInstallConfirmation": false
     }
   ]
 }
