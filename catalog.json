@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "catalogName": "Nova X Icon Store",
-  "catalogVersion": 1,
+  "catalogVersion": 2,
   "lastUpdated": "2026-11-02",
   "packs": [
     {
@@ -63,6 +63,27 @@
       "licenseUrl": "https://github.com/PapirusDevelopmentTeam/papirus_icons/blob/master/LICENSE",
       "attribution": "Papirus Development Team and project contributors. Preserve the Apache-2.0 license and applicable notices.",
       "distribution": "رابط للمصدر الرسمي فقط. لا يوجد في هذا الإدخال ملف APK مباشر موثّق أو ZIP جاهز للاستيراد؛ يلزم دعم بناء/استيراد المصدر أو توفير إصدار رسمي قابل للتنزيل قبل تفعيل التنزيل المباشر.",
+      "integrationStatus": "external-source-only",
+      "requiresManualImport": true
+    },
+    {
+      "id": "lawnicons",
+      "name": "Lawnicons",
+      "variant": "Monochrome Outlined",
+      "developer": "Lawnchair Team and community contributors",
+      "description": "حزمة أيقونات أحادية اللون بخطوط خارجية مستوحاة من Material You، مجانية ومفتوحة المصدر وتعمل مع معظم اللانشرات الخارجية.",
+      "category": "Minimal",
+      "version": "source",
+      "sourceType": "svg-source",
+      "sourceUrl": "https://github.com/LawnchairLauncher/lawnicons",
+      "sourceBranch": "develop",
+      "sourceAssetPath": "svgs/",
+      "appfilterPath": "app/assets/appfilter.xml",
+      "iconFormat": "svg",
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/LawnchairLauncher/lawnicons/blob/develop/LICENSE",
+      "attribution": "Lawnchair Team and Lawnicons community contributors. Preserve the Apache-2.0 license and applicable notices.",
+      "distribution": "المصدر الرسمي يحتوي ملفات SVG وتعليمات ربط app IDs. لا نضع رابط APK أو ZIP مباشر غير متحقق منه؛ يلزم دعم استيراد SVG وملف appfilter قبل تفعيل التنزيل المباشر.",
       "integrationStatus": "external-source-only",
       "requiresManualImport": true
     }
