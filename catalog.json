@@ -21,10 +21,15 @@
       "license": "GPL-3.0 (project code); CC BY-SA 4.0 (icons)",
       "licenseUrl": "https://github.com/Arcticons-Team/Arcticons/blob/main/README.md",
       "attribution": "Arcticons Team and the individual icon contributors. Icon artwork is CC BY-SA 4.0; provide attribution and share adaptations under the same license.",
-      "distribution": "Official upstream source archive ZIP. Import only the icon assets and appfilter; do not install the APK. Preserve CC BY-SA 4.0 attribution and share-alike notices.",
-      "archiveRoot": "",
+      "distribution": "Official upstream source archive ZIP. Import icon assets and appfilter only; preserve CC BY-SA 4.0 attribution and share-alike notices.",
+      "archiveRoot": "Arcticons-15.3.2",
       "appfilterPath": "app/src/main/res/xml/appfilter.xml",
       "iconAssetsPath": "newicons",
+      "iconFormat": "svg",
+      "supportedImportFormats": [
+        "svg"
+      ],
+      "requiresSvgRasterization": true,
       "requiresUserInstallConfirmation": false
     },
     {
@@ -44,11 +49,16 @@
       "license": "Apache-2.0 (repository materials; retain all notices and attribution)",
       "licenseUrl": "https://github.com/yangchoo/Appstract/blob/master/LICENSE.md",
       "attribution": "Original icon artwork by Melanie Gutzmann (mirrorkeydev); project and community-fork contributors. Retain Apache-2.0 notices and attribution.",
-      "distribution": "Official upstream source archive ZIP. Import icon assets and XML mappings only; do not install the APK.",
-      "archiveRoot": "",
+      "distribution": "Official upstream source archive ZIP. Import PNG icon assets and XML mappings only; do not install the APK.",
+      "archiveRoot": "Appstract-v5.0.6",
       "appfilterPath": "app/src/main/res/xml/appfilter.xml",
       "drawableXmlPath": "app/src/main/res/xml/drawable.xml",
       "iconAssetsPath": "icons/appstract-dark",
+      "iconFormat": "png",
+      "supportedImportFormats": [
+        "png"
+      ],
+      "requiresSvgRasterization": false,
       "requiresUserInstallConfirmation": false
     }
   ]
