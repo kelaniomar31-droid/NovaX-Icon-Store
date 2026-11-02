@@ -46,5 +46,25 @@
       "distribution": "Download directly from the official upstream GitHub release; Nova X does not mirror or repackage these files.",
       "requiresUserInstallConfirmation": true
     }
+  ],
+  "externalSources": [
+    {
+      "id": "papirus-android",
+      "name": "Papirus Icon Pack",
+      "variant": "Standard",
+      "developer": "Papirus Development Team",
+      "description": "حزمة أيقونات مجانية مفتوحة المصدر مستوحاة من تصميم Papirus، وتضم أكثر من 1500 أيقونة وفق وصف المشروع، مع دعم Nova Launcher.",
+      "category": "Material",
+      "iconCount": 1500,
+      "version": "source",
+      "sourceType": "android-icon-pack-source",
+      "sourceUrl": "https://github.com/PapirusDevelopmentTeam/papirus_icons",
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/PapirusDevelopmentTeam/papirus_icons/blob/master/LICENSE",
+      "attribution": "Papirus Development Team and project contributors. Preserve the Apache-2.0 license and applicable notices.",
+      "distribution": "رابط للمصدر الرسمي فقط. لا يوجد في هذا الإدخال ملف APK مباشر موثّق أو ZIP جاهز للاستيراد؛ يلزم دعم بناء/استيراد المصدر أو توفير إصدار رسمي قابل للتنزيل قبل تفعيل التنزيل المباشر.",
+      "integrationStatus": "external-source-only",
+      "requiresManualImport": true
+    }
   ]
 }
